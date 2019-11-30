@@ -9,3 +9,7 @@ The image is then extracted from the hidden canvas and can be easily uploaded to
 The images are resized by cropping the larger dimension (width or height) such that the image is centred.
 
 This was developed many years ago due to the lack of simple and light weight drag / drop / resize plugins.
+
+The jQuery dependence can be easily removed.
+
+The dropped items will become draggable if the Sortable plugin is imported, https://github.com/SortableJS/Sortable.
