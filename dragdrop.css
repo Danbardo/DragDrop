@@ -1,0 +1,72 @@
+.content{
+  margin:auto;
+  width:50%;
+}
+.photowrap{
+    border: solid 1px black;
+    padding: 1em;
+}
+.photowrap input[type="file"]{
+  display:none;
+}
+.photowrap form,.photowrap label{
+  cursor:pointer;
+}
+.photowrap label i{
+  font-size:4em;
+}
+.photowrap .nodrop{
+  height: 12em;
+  width: 100%;
+}
+.photowrap .dropped{
+  width:12em;
+  display:inline-block;
+  border: solid 2px rgba(0, 0, 0, 0.25);
+  margin:0.5em;
+  vertical-align: top;
+}
+.photo-box{
+  position:relative;
+  height: 100%;
+  cursor:pointer;
+}
+.photo-box .loading{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: #fff;
+    top: 0px;
+    text-align: center;
+}
+.photo-box .loading i{
+  font-size:2em;
+  margin-top:2.5em;
+}
+.photo-box .loading div{
+    margin-top: 0.75em;
+    font-size: 0.8em;
+}
+.photo-box canvas{
+    width: 100%;
+    height: 100%;
+}
+.photo-box .photo-rem{
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 1em;
+    height: 1em;
+    padding: 0.1em;
+}
+.box_input{
+  padding-top:2em;
+  text-align:center;
+}
+#imageform.is-dragover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
